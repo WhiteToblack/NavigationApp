@@ -1,0 +1,10 @@
+[
+  {
+    "Name": "MoneyTransfers",
+    "Childrens": ["EFT", "Money Order"]
+  },
+  {
+    "Name": "Core",
+    "Childrens": ["Navigation Test", "Money Withdraw", "Money Deposit"]
+  }
+]
