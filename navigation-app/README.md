@@ -6,6 +6,8 @@ NavigationApp host edildikten sonra, navigation-app angular uygulaması 2000 por
 Uygulama dinamik menü üzerinden ekran içerisinde dinamik komponentleri render etmek için yazılmıştır.
 Özetle komponentler classFactory ile instanceları alınıp bir view içerisinde document üzerinde belirtilen alana yazılmaktadır.
 
+Menü ve komponent mappingi hard coded olarak tanımlanmıştır bu mapping istenirse DB tarafından alınacak bir config ile yönetilip dynamic bir yapı oluşturulabilir.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:2000/`. The app will automatically reload if you change any of the source files.
