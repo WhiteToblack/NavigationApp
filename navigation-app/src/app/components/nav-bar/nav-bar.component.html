@@ -12,7 +12,9 @@
 
       <ul class="dropdown-submenu">
         <li class="nav-item" *ngFor="let child of menu.childrens">
-          <a class="nav-link" href="#"> {{ child }} </a>
+          <a class="nav-link" href="#" (click)="onChange(child)">
+            {{ child }}
+          </a>
         </li>
       </ul>
     </li>

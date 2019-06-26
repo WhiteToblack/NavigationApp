@@ -9,7 +9,7 @@ import { retry, catchError } from "rxjs/operators";
   providedIn: "root"
 })
 export class MenuService {
-  apiURL: string = "http://localhost:53266/api/";
+  apiURL: string = "http://localhost:3000/api/";
 
   constructor(private http: HttpClient) {}
 

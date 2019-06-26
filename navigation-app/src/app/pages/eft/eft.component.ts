@@ -1,15 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
 
 @Component({
-  selector: 'app-eft',
-  templateUrl: './eft.component.html',
-  styleUrls: ['./eft.component.scss']
+  selector: "app-eft",
+  templateUrl: "./eft.component.html",
+  styleUrls: ["./eft.component.scss"]
 })
 export class EftComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }
