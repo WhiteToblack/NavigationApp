@@ -1,0 +1,6 @@
+<app-nav-bar
+  ngModelChange="updateNavigationPage"
+  onchange="updateNavigationPage"
+  (change)="updateItem(navigatedPage)"
+></app-nav-bar>
+<app-page-frame [navigatedPage]="navigatedPage"></app-page-frame>
